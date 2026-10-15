@@ -1,0 +1,16 @@
+[package]
+name = "zenislate"
+version = "1.0.0"
+description = "The Ultimate Ambient Smart Display - 100% Free, Private, Multi-Platform"
+authors = ["Created by Hikaproj"]
+edition = "2021"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = ["tray-icon"] }
+tauri-plugin-autostart = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
